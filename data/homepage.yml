@@ -1,0 +1,123 @@
+############################ banner ##########################
+banner:
+  enable : true
+  title : "Brella"
+  content : "Keep calm and Brella on  "
+  image : "images/brella.jpg"
+  # button
+  # button:
+  #  enable : true
+  #  label : "All Products"
+  #  link : "products"
+  # demo video
+  #video:
+   # enable : true
+    #videoURL : "https://youtu.be/BsLNZSB5Tvg"
+
+########################## About ##############################
+about:
+  enable : true
+  title : "Product & Need"
+  content : "Taiwan is rainy - Brella is a service platform to protect people from the shower on the road or from unnecessary sun exposure"
+  image : "images/info.jpg"
+
+
+###################### Call to action ########################
+cta:
+  enable : true
+  title : "Where and how?"
+  content : "Brella locations in Taipei City - Transportation sites, tourist Centers & Hotels. Download from <a> Google Play </a> or <a> Apple Store </a> See Brella in action https://www.youtube.com/watch?v=BsLNZSB5Tvg"
+###  image : "images/umbrella.jpg"
+ #######  overlayImage : "images/umbrella.jpg"
+ # button:
+  #  label : "All Products"
+   # link : "products"
+
+######################## raw material #######################
+material:
+  enable : true
+  title : "Brella Analysis"
+  subtitle : "It works!"
+  materialItem:
+    # material item loop
+    - title : "Product"
+      image : "images/product.png"
+      content : "Umbrella Rental Service"
+      
+    # material item loop
+    - title : "Place"
+      image : "images/place.png"
+      content : "Everywhere with a lot of people: hotels, campus, MRT & tourist spots!"
+      
+    # material item loop
+    - title : "Price"
+      image : "images/price.png"
+      content : "A mere 5TWD per 30 minutes!"
+      
+    # material item loop
+    - title : "Promotion"
+      image : "images/promotion.png"
+      content : "Social media ads"
+
+########################### Advantage #########################
+advantage:
+  enable : true
+  title : "SWOT Analysis"
+  subtitle : ""
+  image : "images/umbrella.jpg"
+  advantageList:
+    # advantage list loop
+    - listItem : "S - Umbrellas are daily necessities"
+    - listItem : "W - Susceptible to weather"
+    - listItem : "O - Sharing economy is trending"
+    - listItem : "T - Users have different moral ethics, may attract imitators"
+
+
+######################## Promo Video ##########################
+#video:
+ # enable : true
+  #title : "Brella in action"
+  #content : "How it works"
+  #videoThumb : "images/umbrella.jpg"
+  #videoURL : "https://www.youtube.com/watch?v=6yQ70Oid5zk"
+
+
+######################## Products #############################
+# products:
+#  enable : true
+#  title : "Products List"
+  # product item comes from "content/products"
+
+
+########################## Testimonial ########################
+testimonial:
+  enable : true
+  title : "What People Are Saying <br> About Our Product"
+  testimonialItem:
+    # testimonial item loop
+    - name : "Angelo Perara"
+      image : "images/clients/client-1.jpg" # size 100px*100px
+      designation : "Chairman, Worldwide Umbrella Association"
+      content : "Brella is targeting an almost blue ocean market, looking forward to hearing more about its development"
+      rating : "five" # rating star, one to five
+      
+    # testimonial item loop
+    - name : "Riya Ventila"
+      image : "images/clients/client-2.jpg" # size 100px*100px
+      designation : "CEO, Umbrellas United"
+      content : "Their design is beautiful and attracts even the most trendy customers"
+      rating : "four" # rating star, one to five
+      
+    # testimonial item loop
+    - name : "john Doe"
+      image : "images/clients/client-3.jpg" # size 100px*100px
+      designation : "CTO, Rainy Day Technologies"
+      content : "Their application and rental technologies are cutting-edge"
+      rating : "five" # rating star, one to five
+      
+    # testimonial item loop
+    #- name : "Riya Ventila"
+     # image : "images/clients/client-2.jpg" # size 100px*100px
+      #designation : "CEO, Dialogue Broad Band"
+      #content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
+      #rating : "four" # rating star, one to five
